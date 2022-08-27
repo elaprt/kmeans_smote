@@ -122,7 +122,7 @@ class KMeansSMOTE(BaseOverSampler):
                 random_state=None,
                 kmeans_args=None,
                 smote_args=None,
-                imbalance_ratio_threshold=1.0,
+                imbalance_ratio_threshold=2.0,
                 density_power=None,
                 use_minibatch_kmeans=True,
                 n_jobs=1,
